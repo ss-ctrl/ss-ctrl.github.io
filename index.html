@@ -4,8 +4,56 @@
 		<meta charset="utf-8">
 		<title></title>
 	</head>
+	<style type="text/css">
+		.xin{
+			width: 200px;
+			height: 200px;
+			margin: 200px auto;
+			position: relative;
+			animation: jump .8s alternate infinite;
+		}
+		@keyframes jump{
+			from{
+				transform: scale(1);
+			}
+			to{
+				transform: scale(1.5);
+			}
+		}
+		.xleft{
+			width: 200px;
+			height: 200px;
+			background-color: pink;
+			border-radius: 50%;
+			position: absolute;
+			z-index: 2;
+			left: 0;
+			top: 0;
+			transform: rotate(45deg) translateX(-100px);
+		}
+		.xright{
+			width: 200px;
+			height: 200px;
+			background-color: pink;
+			position: absolute;
+			border-radius: 50%;
+			z-index: 2;
+			transform: rotate(45deg) translateY(-100px);
+			
+		}
+		.jian{
+			width: 200px;
+			height: 200px;
+			background-color: pink;
+			position: absolute;
+			transform: rotate(45deg);
+		}
+	</style>
 	<body>
-		<div>helloword</div>
-		<div class="kl">生日快乐呀</div>
+		<div class="xin">
+			<div class="xleft"></div>
+			<div class="xright"></div>
+			<div class="jian"></div>
+		</div>
 	</body>
 </html>
