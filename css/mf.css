@@ -1,0 +1,123 @@
+body{
+	perspective: 1000px;
+}
+.allmf{
+	width: 500px;
+	height: 500px;
+	position: relative;
+	margin: 300px auto;
+	transform-style: preserve-3d;
+	
+	animation: zqq 3s linear infinite;
+	
+}
+@keyframes zqq{
+	from{
+		transform: rotate3d(1,1,1,0deg);
+		}
+	to{
+		transform: rotate3d(1,1,1,360deg);
+	}
+}
+
+.mf{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+
+
+}
+.mf div{
+	width: 200px;
+	height: 200px;
+	opacity: 0.6;
+	position: absolute;
+	left: 100px;
+	top: 100px;
+}
+
+.mf .front{
+	background-image: url(../img/1.jpeg);
+	background-position: center;
+	background-size: 100% auto;
+	transform: translateZ(100px);
+}
+.mf .back{
+	background-image: url(../img/2.jpeg);
+	background-position: center;
+	background-size: 100% auto;
+	transform: rotateY(180deg) translateZ(100px);
+}
+.mf .top{
+	background-image: url(../img/3.jpeg);
+	background-position: center;
+	background-size: 100% auto;
+	transform: rotateX(90deg) translateZ(100px);
+}
+.mf .bottom{
+	background-image: url(../img/4.jpeg);
+	background-position: center;
+	background-size: 100% auto;
+	transform: rotateX(-90deg) translateZ(100px);
+}
+.mf .left{
+	background-image: url(../img/5.jpeg);
+	background-position: center;
+	background-size: 100% auto;
+	transform: rotateY(-90deg) translateZ(100px);
+}
+.mf .right{
+	background-image: url(../img/6.jpeg);
+	background-position: center;
+	background-size: 100% auto;
+	transform: rotateY(90deg) translateZ(100px);
+}
+/* 第二个大魔方 */
+
+.mf2{
+	width: 400px;
+	height: 400px;
+	/* transform: rotate3d(1,1,1,45deg) */
+}
+.mf2 div{
+	width: 400px;
+	height: 400px;
+	opacity: 0.4;
+	position: absolute;
+}
+.mf2 .front2{
+	background-image: url(../img/1.jpeg);
+	background-position: center;
+	background-size: 100% auto;
+	transform: translateZ(200px);
+}
+.mf2 .back2{
+	background-image: url(../img/2.jpeg);
+	background-position: center;
+	background-size: 100% auto;
+	transform: rotateY(180deg) translateZ(200px);
+}
+.mf2 .top2{
+	background-image: url(../img/3.jpeg);
+	background-position: center;
+	background-size: 100% auto;
+	transform: rotateX(90deg) translateZ(200px);
+}
+.mf2 .bottom2{
+	background-image: url(../img/4.jpeg);
+	background-position: center;
+	background-size: 100% auto;
+	transform: rotateX(-90deg) translateZ(200px);
+}
+.mf2 .left2{
+	background-image: url(../img/5.jpeg);
+	background-position: center;
+	background-size: 100% auto;
+	transform: rotateY(-90deg) translateZ(200px);
+}
+.mf2 .right2{
+	background-image: url(../img/6.jpeg);
+	background-position: center;
+	background-size: 100% auto;
+	transform: rotateY(90deg) translateZ(200px);
+}

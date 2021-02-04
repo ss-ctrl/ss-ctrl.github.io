@@ -2,61 +2,27 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title></title>
+		<title>3D魔方</title>
 	</head>
-	<style type="text/css">
-		.xin{
-			width: 200px;
-			height: 200px;
-			margin: 200px auto;
-			position: relative;
-			animation: jump .8s alternate infinite;
-		}
-		@keyframes jump{
-			from{
-				transform: scale(1);
-			}
-			to{
-				transform: scale(1.5);
-			}
-		}
-		.xleft{
-			width: 200px;
-			height: 200px;
-			background-color: pink;
-			border-radius: 50%;
-			position: absolute;
-			z-index: 2;
-			left: 0;
-			top: 0;
-			transform: rotate(45deg) translateX(-100px);
-		}
-		.xright{
-			width: 200px;
-			height: 200px;
-			background-color: pink;
-			position: absolute;
-			border-radius: 50%;
-			z-index: 2;
-			transform: rotate(45deg) translateY(-100px);
-			
-		}
-		.jian{
-			width: 200px;
-			height: 200px;
-			background-color: pink;
-			position: absolute;
-			transform: rotate(45deg);
-		}
-	</style>
+	<link rel="stylesheet" type="text/css" href="css/mf.css"/>
 	<body>
-		<div class="wz">
-			小佳肴，因为不知道送给你什么，也不想和别人一样那种烂大街的我最讨厌，所以并不会给你说你已经听腻了的“生日快乐”。那么我送你点什么呢，就送你个会跳动的心吧，这并不是简简单单的一个心，它是我写了很久，用两个圆，一个矩形所画出来的，虽然说看上去很普通，但是它包括了很多算法，两个圆到矩形之间的半径距离计算与坐标系xyz轴旋转后平移 你应该没收到过这种礼物。果然这段文字我写得又臭又长。
-		</div>
-		<div class="xin">
-			<div class="xleft"></div>
-			<div class="xright"></div>
-			<div class="jian"></div>
+		<div class="allmf">
+			<div class="mf">
+				<div class="front"></div>
+				<div class="back"></div>
+				<div class="top"></div>
+				<div class="bottom"></div>
+				<div class="left"></div>
+				<div class="right"></div>
+			</div>
+			<div class="mf2">
+				<div class="front2"></div>
+				<div class="back2"></div>
+				<div class="top2"></div>
+				<div class="bottom2"></div>
+				<div class="left2"></div>
+				<div class="right2"></div>
+			</div>
 		</div>
 	</body>
 </html>
