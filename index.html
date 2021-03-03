@@ -4,38 +4,45 @@
 		<meta charset="utf-8">
 		<title></title>
 	</head>
-	<link rel="stylesheet" type="text/css" href="css/style10.css"/>
-	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		#div{
+			width: 660px;
+			margin: 10px auto;
+		}
+		#btn{
+			text-align: center;
+		}
+		
+	</style>
 	<body>
-		<div class="bg">
-			<div class="cbl">
-				<div class="logo"></div>
-				<div class="item">
-					<div class="list-item">首页</div>
-					<div class="list-item">游戏分类</div>
-					<div class="list-item">其他队伍</div>
-					<div class="list-item">历史投入</div>
-					<div class="list-item">我的队伍</div>
-					<div class="list-item">邀请成员</div>
-					<div class="list-item">支付设置</div>
-					<div class="list-item">通用设置</div>
-					<div class="list-item">使用协议</div>
-				</div>
-				<div class="line"></div>
-				<div class="logo-item">
-					<div class="logo-list"></div>
-					<div class="logo-list"></div>
-					<div class="logo-list"></div>
-					<div class="logo-list"></div>
-				</div>
-			</div>
+		<div id="div">
+			<img src="img/1.jpg" alt="头像">
 		</div>
-		<input type="checkbox" style="display: none;" name="mainchenck" id="mainchenck" value="" />
-		<div class="main">
-			<label for="mainchenck">
-				<div class="main-menu"></div>
-			</label>
-			<div class="ss">一个侧边栏功能</div>
+		<div id="btn">
+			<button id="prev" type="button">上一张</button>
+			<button id="next" type="button">下一张</button>
 		</div>
+		
 	</body>
+	<script type="text/javascript">
+		var imgs = document.getElementsByTagName("img")[0];
+		
+		imgs.src = "img/1.jpg";
+		// console.log(imgs);
+		
+		var prev = document.getElementById("prev");
+		var next = document.getElementById("next");
+		// console.log(prev)
+		prev.onclick = function(){
+			imgs.src = "img/1.jpg";
+		}
+		next.onclick = function(){
+			imgs.src = "img/2.jpg";
+		}
+	</script>
 </html>
