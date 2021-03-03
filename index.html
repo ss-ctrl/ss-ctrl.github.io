@@ -17,10 +17,13 @@
 		#btn{
 			text-align: center;
 		}
-		
+		#p1{
+			text-align: center;
+		}
 	</style>
 	<body>
 		<div id="div">
+			<p id="p1"></p>
 			<img src="img/1.jpg" alt="头像">
 		</div>
 		<div id="btn">
@@ -34,15 +37,30 @@
 		
 		imgs.src = "img/1.jpg";
 		// console.log(imgs);
-		
 		var prev = document.getElementById("prev");
 		var next = document.getElementById("next");
+		var imgArr = ["img/1.jpg","img/2.jpg","img/3.jpg","img/4.jpg","img/5.jpg"];
 		// console.log(prev)
+		var i = 0;
+		var ps = document.getElementById("p1");
+		ps.innerHTML = "共 " + imgArr.length +" 张图，当前是第 "+ (i+1) + " 张图";
 		prev.onclick = function(){
-			imgs.src = "img/1.jpg";
+			i--;
+			if(i<0){
+				i=4;
+			}
+			imgs.src = imgArr[i];
+			ps.innerHTML = "共 " + imgArr.length +" 张图，当前是第 "+ (i+1) + " 张图";
 		}
 		next.onclick = function(){
-			imgs.src = "img/2.jpg";
+			i++;
+			if(i>imgArr.length-1){
+				i = 0;
+			}
+			imgs.src = imgArr[i];
+			ps.innerHTML = "共 " + imgArr.length +" 张图，当前是第 "+ (i+1) + " 张图";
 		}
+		
+		
 	</script>
 </html>
