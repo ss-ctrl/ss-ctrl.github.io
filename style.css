@@ -205,21 +205,16 @@ body{background-image:url(02bj.jpg);
     .searchBtn:hover{
         background-color: #497fdf;
     }
+    
     #M1{
      width: 100px;
      height: 36px;
      padding-top: 2px\9;
-     /* cursor: pointer; */
      color: #fff;
      font-size: 15px;
-     /* letter-spacing: 1px; */
      background: #3385ff;
-     /* border-bottom: 1px solid #2d78f4; */
-     /* outline: medium; */
-     *: ;
      border-bottom: none;
      -webkit-appearance: none;
-     -webkit-border-radius: 0;
      border: 0;
      text-align: center;
      text-decoration:none;
@@ -232,7 +227,6 @@ body{background-image:url(02bj.jpg);
      margin-top: 2%;
     }
     #M1:hover{
-     /* box-shadow: 0px 5px 15px 5px rgb(203 221 232); */
      box-shadow: 0px 0px 15px #333333;
      transform: scale(1.1);
     }

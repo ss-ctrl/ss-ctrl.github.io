@@ -2,8 +2,6 @@
 let music_id = "1413325844";
 let music_name = "Black Catcher";
 let music_artist = "ビッケブランカ";
-
-
 let apname = music_name;
 let apart = music_artist;
 let apurl = 'https://v1.itooi.cn/netease/url?id=' + music_id + '&quality=flac';
@@ -18,11 +16,9 @@ const ap = new APlayer({
         url: apurl,
         cover: apcover,
         lrc: aplrc
-
     }],
     autoplay: true
 });
-
 //beta
 // var jsonurl = "https://acg.wgb.ink/netease.php?id=" + music_id;
 
