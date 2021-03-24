@@ -1,5 +1,7 @@
 body {
+    font-family:"JetBrains Mono","微软雅黑","宋体";
     font-size: 18px;
+    font-weight: bold;
     color: #6c767d;
     background-color: #ebf1f5;
     height: 100vh;
@@ -40,8 +42,7 @@ h4 {
 .container {
     position: relative;
     top: 10%;
-    /* transform: translateY(-50%); */
-	transform: scale(1.1);
+    transform: translateY(15%) scale(1.1);
 }
 
 .my-card {
@@ -100,7 +101,7 @@ strike {
 
 .photo-bg {
     /* background-image: url(assets/background.jpg); */
-    background-image: url(./02.jpg);
+    background-image: url(1616553943605.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -159,74 +160,80 @@ footer p {
         padding: 20px;
     }
 }
-body{background-image:url(02bj.jpg); 
-    background-repeat:no-repeat;background-position:100%} 
-    .title{
-        text-align: center;
-        font-size: 25px;
-        font-weight: bold;
-        color: cadetblue;
-        margin-top: 100px;
-        margin-bottom: 20px;
-        font-family: fantasy;
-    }
-    /* 下面是搜索框样式 */
-    .searchBox{
-        width: 82%;
-        height: 35px;
-        border: 1px solid cadetblue;
-        outline: hidden;
-        border-radius: 2px;
-        margin: 0 auto;
-        position: relative;
-    }
-    .inputBox{
-        border: none;
-		width: 84%;
-		height: 35px;
-		line-height: 35px;
-		outline: none;
-		padding-left: 8px;
-		caret-color: #008B8B;
-		font-size: 14px;
-    }
-    .searchBtn{
-        width: 76px;
-        height: 33px;
-        border: none;
-        position: absolute;
-        right: 0;
-        outline: none;
-        color: white;
-        font-size: 15px;
-        background-color: cornflowerblue;
-    }
-    /* 鼠标滑过按钮时背景色改变 */
-    .searchBtn:hover{
-        background-color: #497fdf;
-    }
-    
-    #M1{
-     width: 100px;
-     height: 36px;
-     padding-top: 2px\9;
-     color: #fff;
-     font-size: 15px;
-     background: #3385ff;
-     border-bottom: none;
-     -webkit-appearance: none;
-     border: 0;
-     text-align: center;
-     text-decoration:none;
-     color: #fff;
-     background-color: #007bff;
-     border-color: #007bff;
-     padding: 7px;
-     float: left;
-     margin-left: 2%;     
-     margin-top: 2%;
-    }
-    #M1:hover{
-     box-shadow: 0px 0px 15px #333333;
-     transform: scale(1.1);
-    }
+body{
+    background-image:url(489pm2.jpg);
+    background-repeat:no-repeat;
+    /* background-position:100%; */
+    background-position: center;
+    background-size: cover;
+} 
+.title{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: cadetblue;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-family: fantasy;
+}
+/* 下面是搜索框样式 */
+.searchBox{
+    width: 82%;
+    height: 35px;
+    border: 1px solid cadetblue;
+    outline: hidden;
+    border-radius: 2px;
+    margin: 0 auto;
+    position: relative;
+}
+.inputBox{
+    border: none;
+    width: 84%;
+    height: 35px;
+    line-height: 35px;
+    outline: none;
+    padding-left: 8px;
+    caret-color: #008B8B;
+    font-size: 14px;
+}
+.searchBtn{
+    width: 76px;
+    height: 33px;
+    border: none;
+    position: absolute;
+    right: 0;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    background-color: cornflowerblue;
+}
+/* 鼠标滑过按钮时背景色改变 */
+.searchBtn:hover{
+    background-color: #497fdf;
+}
+
+#M1{
+    width: 100px;
+    height: 36px;
+    padding-top: 2px\9;
+    color: #fff;
+    font-size: 15px;
+    background: #3385ff;
+    border-bottom: none;
+    -webkit-appearance: none;
+    border: 0;
+    font-weight: 200;
+    text-align: center;
+    text-decoration:none;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 7px;
+    float: left;
+    margin-left: 2%;     
+    margin-top: 2%;
+}
+#M1:hover{
+    box-shadow: 0px 0px 15px #333333;
+    transform: scale(1.1);
+}
