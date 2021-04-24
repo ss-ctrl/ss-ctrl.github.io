@@ -101,7 +101,7 @@ strike {
 
 .photo-bg {
     /* background-image: url(assets/background.jpg); */
-    background-image: url(1616553943605.png);
+    background-image: url(wallhaven-39ee73_1481x2499.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -161,10 +161,10 @@ footer p {
     }
 }
 body{
-    background-image:url(4-16bg.jpg);
+    background-image:url(wallhaven-z8ppgo.jpg);
     background-repeat:no-repeat;
-    /* background-position:100%; */
-    background-position: center;
+    background-position: 125% 74%;
+    /*background-position: center;*/
     background-size: cover;
 } 
 .title{

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc6b3851-e204-4565-81bc-c4b8afe8dea5" name="Default Changelist" comment="" />
+    <list default="true" id="cc6b3851-e204-4565-81bc-c4b8afe8dea5" name="Default Changelist" comment="Default Changelist" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,17 +20,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Documents\GitHub\ss-ctrl.github.io" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ss-ctrl.github.io/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript Debug.index.html" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -41,6 +42,12 @@
       <option name="presentableId" value="Default" />
       <updated>1619118012511</updated>
       <workItem from="1619118013691" duration="84000" />
+      <workItem from="1619166166672" duration="53000" />
+      <workItem from="1619166225782" duration="138000" />
+      <workItem from="1619166371440" duration="24000" />
+      <workItem from="1619166402186" duration="621000" />
+      <workItem from="1619267722587" duration="689000" />
+      <workItem from="1619272672282" duration="1901000" />
     </task>
     <servers />
   </component>
